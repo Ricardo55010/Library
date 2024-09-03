@@ -1,8 +1,8 @@
 <template>
-  <aside class="z-20 hidden w-64 overflow-y-auto bg-white md:block flex-shrink-0">
-    <div class="py-4 text-gray-500">
-      <Link class="ml-6 text-lg font-bold text-gray-800" :href="route('dashboard')">
-        Windmill
+  <aside class="z-20 hidden w-64 overflow-y-auto bg-purple-900 md:block flex-shrink-0">
+    <div class="py-4 text-white">
+      <Link class="ml-6 text-lg font-bold text-gray-100" :href="route('dashboard')">
+        Library
       </Link>
 
       <ul class="mt-6">
